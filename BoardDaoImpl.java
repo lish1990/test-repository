@@ -29,6 +29,7 @@ public class BoardDaoImpl implements BoardDao {
 			ne.printStackTrace(System.err);
 			throw new RuntimeException("JNDI error occured." + ne.getMessage());
 		}
+		System.out.println("branch test");
 	}
 
 	private Connection obtainConnection() throws SQLException {
