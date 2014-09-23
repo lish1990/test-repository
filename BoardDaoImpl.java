@@ -33,6 +33,7 @@ public class BoardDaoImpl implements BoardDao {
 
 	private Connection obtainConnection() throws SQLException {
 		return dataSource.getConnection();
+		System.out.println("synclsh 계정");
 	}
 
 	@Override
